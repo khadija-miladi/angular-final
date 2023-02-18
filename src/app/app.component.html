@@ -1,0 +1,26 @@
+    <!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <link rel="stylesheet" href="app.component.css">
+        </head>
+    <nav class="navbar ">
+        <div class="nav-links">
+            <ul>
+                <li><a routerLink="/">Home</a></li>
+                <li><a routerLink="/login">Login</a></li>
+                <li><a routerLink="/register">Register</a></li>
+                <li><a routerLink="/pepolelist">Users</a></li>
+            </ul>
+        </div>
+        <form class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">   
+        </form>
+        <button routerLink="/login" *ngIf="isauth" (click)="signout()" type="button" class="btn btn-outline-secondary">Logout</button>
+        
+    </nav>              
+
+            <router-outlet></router-outlet>
+
+            
+            </html>     
+
+       

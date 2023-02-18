@@ -1,0 +1,30 @@
+.hero{
+    min-height: 97vh;
+    background: url("/assets/home.png");
+    background-size: cover;
+    background-position: bottom;
+    color:#595a5d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero h3{
+    padding: 4rem;
+}
+
+h2{
+    font-size: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:500;
+}
+h3{
+    font-size: 1.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+}
+button{
+    padding: 0.7rem 1.5rem; 
+    font-size: 1.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
